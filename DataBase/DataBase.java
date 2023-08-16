@@ -8,7 +8,7 @@ public class DataBase {
 
     // VARIABLES
     String db;
-    String url = "jdbc:mysql://localhost:3306/";
+    String url = "jdbc:mysql://localhost:3306/"; // Ruta de tu base de datos
     String user = "root";
     String pass = "root";
     String Driver = "com.mysql.cj.jdbc.Driver";
