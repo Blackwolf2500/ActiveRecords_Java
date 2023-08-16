@@ -7,7 +7,7 @@ public class ActiveRecords {
     // CONECTOR
     protected String tabla = null;
     protected String[ ] columnasDB = {};
-    private String db = "automotora";
+    private String db = "DATABASE_NAME"; // Declarar nombre de la Base de datos a conectarse
     protected DataBase DB = new DataBase(db);
 
     // getValues
